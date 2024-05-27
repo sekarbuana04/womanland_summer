@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+body {
+      margin: 0;
+      padding: 0;
+      font-family: "Playfair Display", serif;
+}
+
+header {
+      font-size: small;
+      background-color: white;
+      padding: 20px 50px;
+      position: sticky;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid black; 
+}
+
+  header img {
+      height: 40px;
+  }
+  nav {
+      display: flex;
+  }
+  nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+  }
+  nav a:hover {
+      color: green;
+  }
+
+  section {
+      padding: 20px;
+      margin: 0px 20px;
+      border-radius: 10px;
+  }
+
+  .title{
+      font-size: 100px;
+      font-weight: 300;
+      padding: 0px 0px;
+      margin: 0px 0px 0px 0px;
+}
+
+section img {
+      width: 100%;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 10px;
+      margin-top: 20px;
+     
+}
+
+.description {
+      font-size: 32px; 
+      width: 100%;
+      line-height: 48px;
+
+}
+
+.date {
+      padding: 15px 20px;
+      width: fit-content;
+      font-size: 16px; 
+      color: white;
+      background-color: black;
+      border-radius: 40px;
+}
+
+hr {
+      border: 0;
+      height: 2px;
+      background: linear-gradient(to right, rgba(255, 215, 0, 0), black, rgba(255, 215, 0, 0));
+      margin: 40px 0; 
+  }
+
+
+  #speaker h3{
+      text-align: center;
+  }
+.speakers {
+      display: flex;
+      justify-content: space-around;
+      margin-top: 20px;
+  }
+  .speaker-box {
+      text-align: center;
+  }
+  .speaker-box img {
+      width: 60%;
+      height: auto;
+      object-fit: cover;
+  }
+  .speaker-name {
+      padding: 10px;
+      font-size: 18px;
+      font-weight: bold;
+  }
+
+  .speaker-title{
+      font-size: 16px;
+      font-weight: 100;
+      margin-bottom: 10px;
+  }
+
+  .title2{
+      font-size: 64px;
+      font-weight: 300;
+      padding: 0px 0px;
+      margin: 0px 0px 0px 0px;
+}
+
+  .btn-register {
+      display: inline-block;
+      padding: 15px 20px;
+      margin-top: 15px;
+      color: white;
+      background-color: blueviolet;
+      text-decoration: none;
+      border-radius: 40px;
+      font-weight: bold;
+  }
+
+
+  footer {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      width: 100%;
+      margin-top: 40px;
+      bottom: 0;
+}
